@@ -39,6 +39,7 @@ clear
 echo -e "\e[1;32m"
 rm *.xxx >/dev/null 2>&1
 python3 result.py result.txt
+clear
 cat result.txt | lolcat
 rm *.xxx >/dev/null 2>&1
 exit 0
