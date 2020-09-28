@@ -66,7 +66,7 @@ exit
 elif [ $ch -eq 3 ];then
 clear
 echo -e "\e[1;33m"
-figlet TBomb
+figlet Khan
 echo -e "\e[1;34mCreated By \e[1;34m"
 toilet -f mono12 -F border KHAN
 echo  " "
