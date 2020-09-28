@@ -55,7 +55,7 @@ rm update.khan >> temp
 rm temp
 chmod +x run.sh
 fi
-echo -e "\e[1;32m TBomb ResultMaker Restart Now..."
+echo -e "\e[1;32m ResultMaker Restart Now..."
 echo -e "\e[1;32m All The Required Packages Will Be Installed..."
 echo -e "\e[1;34m Press Enter To Proceed To Restart..."
 read a6
