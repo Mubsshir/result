@@ -39,6 +39,7 @@ clear
 echo -e "\e[1;32m"
 rm *.xxx >/dev/null 2>&1
 python3 result.py result.txt
+cat result.txt | lolcat
 rm *.xxx >/dev/null 2>&1
 exit 0
 elif [ $ch -eq 2 ];then
@@ -76,4 +77,4 @@ read a3
 clear
 fi
 done
-cat result.txt | lolcat
+
