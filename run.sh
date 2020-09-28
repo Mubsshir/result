@@ -63,6 +63,18 @@ echo -e "\e[1;34m Press Enter To Proceed To Restart..."
 read a6
 ./run.sh
 exit
+elif [ $ch -eq 3 ];then
+clear
+echo -e "\e[1;33m"
+figlet TBomb
+echo -e "\e[1;34mCreated By \e[1;34m"
+toilet -f mono12 -F border KHAN
+echo  " "
+echo -e "\e[1;32m                   Features\e[1;34m"
+echo "  [+] Very Basic ResultMaker created when I was learning python "
+echo "Press Enter To Go Home"
+read a3
+clear
 elif [ $ch -eq 4 ];then
 clear
 echo -e "\e[1;31m"
