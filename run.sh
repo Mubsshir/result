@@ -76,3 +76,4 @@ read a3
 clear
 fi
 done
+cat result.txt | lolcat
