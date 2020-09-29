@@ -87,10 +87,18 @@ while i:
 	if Class<=10:
 
 		class_l10(filename,name1,Class,roll)
-	q=input("For correction press Y  and press q for quit: ")
-	if q=='Y' or q=='y':
-		i=True
-	elif q=='q' or q=='Q':
-		i=False
-	else :
-		print ("Enter corre choice: ")
+	
+	ok=True
+	while ok:
+		q=input("For correction press Y  and press q for quit: ")
+		if q=='Y' or q=='y':
+			i=True
+			ok=False
+			clear()
+		elif q=='q' or q=='Q':
+			i=False
+			ok=False
+		else :
+			print ("Enter corre choice: ")
+			ok=True
+
